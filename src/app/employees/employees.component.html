@@ -1,0 +1,7 @@
+<ul>
+  <ng-container *ngFor="let employee of employees | async">
+    <li><a [routerLink]="employee.id">{{employee.name}}</a></li>
+  </ng-container>
+</ul>
+
+<router-outlet></router-outlet>

@@ -9,6 +9,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import {FormsModule} from '@angular/forms';
 import { QueryComponent } from './query/query.component';
 import { FlagComponent } from './flag/flag.component';
+import { EmployeesComponent } from './employees/employees.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FlagComponent } from './flag/flag.component';
     TopComponent,
     NotFoundComponent,
     QueryComponent,
-    FlagComponent
+    FlagComponent,
+    EmployeesComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

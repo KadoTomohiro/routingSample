@@ -14,7 +14,7 @@ $ ng start
 * query parameter
 * fragment
 * data parameter
-* child Route(not yet)
+* child Route
 * Lazy Loading(not yet)
 * Guard
-* Resolve(not yet)
+* Resolve
