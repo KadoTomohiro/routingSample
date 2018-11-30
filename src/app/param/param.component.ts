@@ -7,7 +7,7 @@ import {ActivatedRoute, Params} from '@angular/router';
   styleUrls: ['./param.component.css']
 })
 export class ParamComponent implements OnInit {
-  private id: string;
+  id: string;
 
   constructor(public router: ActivatedRoute) { }
 

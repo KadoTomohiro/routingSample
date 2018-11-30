@@ -7,8 +7,8 @@ import {ActivatedRoute, Data} from '@angular/router';
   styleUrls: ['./flag.component.css']
 })
 export class FlagComponent implements OnInit {
-  private frag: string;
-  private data: Data;
+  frag: string;
+  data: Data;
 
   constructor(private router: ActivatedRoute) { }
 

@@ -7,7 +7,7 @@ import {ActivatedRoute} from '@angular/router';
   styleUrls: ['./query.component.css']
 })
 export class QueryComponent implements OnInit {
-  private q: string;
+  q: string;
 
   constructor(private router: ActivatedRoute) { }
 

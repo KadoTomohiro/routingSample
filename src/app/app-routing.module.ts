@@ -23,6 +23,7 @@ const routes: Routes = [
       {path: ':id', component: ChildComponent, resolve: {employee: EmployeeResolverService}}
     ]
   },
+  {path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule'},
   {path: '**', component: NotFoundComponent}
 ];
 
